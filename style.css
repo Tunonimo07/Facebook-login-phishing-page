@@ -1,0 +1,107 @@
+body{
+    margin:0;
+    margin-left: 300px;
+    margin-top: 250px;
+}
+
+.paragraph{
+    font-size: 35px;
+    margin-top: 10px;
+    font-family: Arial;
+    font-weight: normal;
+}
+
+.fbpic{
+    margin-left: -30px;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.login-container{
+    width: 490px;
+    height: 420px;
+    padding: 15px;
+    position: auto; 
+    margin: auto;
+    background-color: white;
+    margin-right: 180px;
+    margin-top: -300px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 3px rgba(0,0,0,0.1)
+}
+
+input{
+    display: block;
+    width: 93%;
+    outline: white;
+    padding: 15px;
+    font-size: 18px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+.loginbtn{
+    width: 100%;
+    display: block;
+    margin-top: 15px;
+    padding: 15px 0;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #1877f2;
+}
+
+.forgot{
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 15px;
+    font-family: Arial;
+    text-decoration: none;
+    color: #1877f2;
+    font-size: 14px;
+}
+
+.forgot:hover{
+    text-decoration: underline;
+}
+
+hr{
+    margin: 25px 0;
+    opacity: 0.3;
+}
+
+.new-account{
+    display: block;
+    margin: 15px auto;
+    padding: 15px;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #42b72a;
+}
+
+.create{
+    font-weight: bold;
+    margin-left: 650px;
+    text-decoration: none;
+    color: black;
+}
+
+.create:hover{
+    text-decoration: underline;
+}
+.below-text{
+    font-family: arial;
+}
+
+#text{
+    padding-top: 10px;
+}
