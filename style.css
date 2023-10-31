@@ -1,32 +1,38 @@
 body{
     margin:0;
-    margin-left: 300px;
+    margin-left: 350px;
     margin-top: 250px;
+    display:block;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
 }
 
 .paragraph{
     font-size: 35px;
-    margin-top: 10px;
+    margin-left: -100px;
     font-family: Arial;
     font-weight: normal;
+    position: fixed;
 }
 
 .fbpic{
-    margin-left: -30px;
-    position: relative;
-    background-attachment: fixed;
+    margin-left:-130px;
+    margin-top: -70px;
+    position:fixed
 }
 
 .login-container{
     width: 490px;
     height: 420px;
     padding: 15px;
-    position: auto; 
-    margin: auto;
+    position: fixed; 
+    margin-left: 500px;
+    margin-top: -200px;
     background-color: white;
-    margin-right: 180px;
-    margin-top: -300px;
     border-radius: 10px;
+    display: block;
     box-shadow: 0 0 5px 3px rgba(0,0,0,0.1)
 }
 
@@ -100,9 +106,27 @@ hr{
 }
 .below-text{
     font-family: arial;
+    position: fixed;
+    margin-top: 270px;
+    margin-left: -90px;
 }
 
 #text{
     padding-top: 10px;
 }
 
+body{
+    display: inline-block;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    display: block;
+    flex-direction: rig;
+    justify-content:end;
+    align-items: right;
+}
+
+    
