@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
-   <head>
+<head>
        <title>FORM</title>
        <meta charset="UTF-8">
-       <link rel="stylesheet" href="style.css">
-    </head>     
+       <link rel="stylesheet" href="style1.css">
+</head>     
 
 <body>
     
