@@ -1,43 +1,41 @@
 body{
-    margin:0;
-    margin-left: 350px;
     margin-top: 250px;
-    display:block;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-
+    margin-left: 200px;
+    display: block;
 }
 
+p{
+    position: fixed;
+    display: block;
+}
 .paragraph{
     font-size: 35px;
     margin-left: -100px;
     font-family: Arial;
     font-weight: normal;
-    position: fixed;
+    position: absolute;
 }
 
 .fbpic{
     margin-left:-130px;
     margin-top: -70px;
-    position:fixed
+    display: flex;
 }
 
 .login-container{
     width: 490px;
     height: 420px;
     padding: 15px;
-    position: fixed; 
+    display: block;
     margin-left: 500px;
     margin-top: -200px;
     background-color: white;
     border-radius: 10px;
-    display: block;
     box-shadow: 0 0 5px 3px rgba(0,0,0,0.1)
 }
 
 input{
-    display: block;
+    display: flex;
     width: 93%;
     outline: white;
     padding: 15px;
@@ -49,7 +47,6 @@ input{
 
 .loginbtn{
     width: 100%;
-    display: block;
     margin-top: 15px;
     padding: 15px 0;
     color: white;
@@ -98,6 +95,7 @@ hr{
     font-weight: bold;
     margin-left: 650px;
     text-decoration: none;
+    position: absolute;
     color: black;
 }
 
@@ -106,27 +104,7 @@ hr{
 }
 .below-text{
     font-family: arial;
-    position: fixed;
-    margin-top: 270px;
+    margin-top: 10px;
     margin-left: -90px;
+    position: absolute;
 }
-
-#text{
-    padding-top: 10px;
-}
-
-body{
-    display: inline-block;
-    flex-direction:column;
-    align-items: center;
-    justify-content: center;
-}
-
-form{
-    display: block;
-    flex-direction: rig;
-    justify-content:end;
-    align-items: right;
-}
-
-    
