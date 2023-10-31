@@ -95,7 +95,6 @@ hr{
     font-weight: bold;
     margin-left: 650px;
     text-decoration: none;
-    position: absolute;
     color: black;
 }
 
@@ -106,5 +105,4 @@ hr{
     font-family: arial;
     margin-top: 10px;
     margin-left: -90px;
-    position: absolute;
 }
